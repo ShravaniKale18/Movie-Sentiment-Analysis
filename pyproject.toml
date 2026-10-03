@@ -1,0 +1,17 @@
+[project]
+name = "movie-review-classfication"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shravani Kale", email = "kshravani1803@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+movie-review-classfication = "movie_review_classfication:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
